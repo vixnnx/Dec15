@@ -10,6 +10,9 @@ public class Date {
     }
 
     public static int tmr(int today) {
-        return today+1;
+        return today + 1;
+    }
+    public void victoriaMethod() {
+        System.out.println("hello");
     }
 }
