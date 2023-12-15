@@ -5,7 +5,7 @@ public class Date {
         return month + "/" + day;
     }
 
-    public static info(int month, int day) {
+    public static void info(int month, int day) {
         System.out.println("The month of " + month + " on the day of " + day);
     }
 }
