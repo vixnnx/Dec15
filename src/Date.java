@@ -8,4 +8,8 @@ public class Date {
     public static void info(int month, int day) {
         System.out.println("The month of " + month + " on the day of " + day);
     }
+
+    public static int tmr(int today) {
+        return today+1;
+    }
 }
